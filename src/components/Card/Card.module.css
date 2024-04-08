@@ -6,9 +6,20 @@
   background-color: rgba(255, 255, 255, 0.01);
   padding: 15px 25px;
   font-family: "Inter", sans-serif;
+  transition: all 0.3s;
+}
+.card_active{
+  box-shadow: 0 0 45px rgba(255, 47, 84, 1);
+}
+.card:hover{
+  background-color: #fff;
+  cursor: pointer;
 }
 .card__title{
   font-size: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .card__desc{
   font-size: 12px;
