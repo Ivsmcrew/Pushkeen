@@ -1,0 +1,18 @@
+.gallery{
+  position: relative;
+  display: flex;
+  row-gap: 60px;
+  column-gap: 60px;
+  flex-wrap: wrap;
+}
+.gallery__marker{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(30deg);
+  width: 934px;
+  height: 300px;
+  border-radius: 150px;
+  background-color: rgba(112, 117, 241, 1);
+  z-index: -10;
+}
