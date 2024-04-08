@@ -1,7 +1,12 @@
+import Gallery from './components/Gallery/Gallery';
+import './styles/App.css'
+
 function App() {
   return (
     <div className="App">
-      Hello world
+      <div className='content'>
+        <Gallery />
+      </div>
     </div>
   );
 }
